@@ -1,0 +1,14 @@
+{
+  "name": "poqit",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "npm run dev --workspace @poqit/desktop",
+    "dev:website": "npm run dev --workspace @poqit/website",
+    "build": "npm run build --workspace @poqit/desktop && npm run build --workspace @poqit/website",
+    "check": "npm run check --workspace @poqit/desktop && npm run check --workspace @poqit/website",
+    "tauri": "npm run tauri --workspace @poqit/desktop"
+  },
+  "engines": { "node": ">=20" }
+}

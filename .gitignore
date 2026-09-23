@@ -1,0 +1,15 @@
+node_modules/
+dist/
+target/
+.toolchains/
+outputs/
+*.tsbuildinfo
+apps/desktop/vite.config.js
+apps/desktop/vite.config.d.ts
+.vite/
+*.db
+*.db-shm
+*.db-wal
+rustup-init.exe
+.DS_Store
+Thumbs.db
